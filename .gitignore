@@ -1,0 +1,42 @@
+# secrets
+.env
+backend/.env
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# node
+node_modules/
+frontend/dist/
+
+# personal portfolio data (keep private)
+backend/portfolio.csv
+!backend/sample_portfolio.csv
+
+# webull openapi 2FA token store (session secrets)
+backend/conf/
+conf/
+backend/webull_token.json
+backend/log/
+
+# os
+.DS_Store
+Thumbs.db
+
+# local device id
+did.bin
+
+# bank statements (personal)
+backend/deposit_history/
+
+# statement exports (personal)
+backend/deposit_withdrawal_all.csv
+
+# runtime logs (start.bat, npm)
+*.log
+
+# editor
+.vscode/
